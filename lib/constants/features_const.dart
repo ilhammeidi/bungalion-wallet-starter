@@ -1,0 +1,33 @@
+import 'package:flutter/material.dart';
+
+enum SmokingType {smoking, nonSmoking }
+Map<String, IconData> featureIcon = {
+  'Free Wi-Fi' : Icons.wifi,
+  'Swimming Pool': Icons.pool,
+  'Meeting Rooms': Icons.groups,
+  'Snack & Drinks': Icons.cookie,
+  'Coffee & Tea': Icons.coffee,
+  'VIP Room': Icons.web_stories_rounded,
+  'Dedicated Desk': Icons.desk,
+  'Kitchen': Icons.food_bank_outlined,
+  'TV': Icons.live_tv,
+  'Spa & Wellness Center': Icons.deblur,
+  'Air Conditioning': Icons.ac_unit,
+  'Restaurant': Icons.restaurant,
+  'Fitness Center': Icons.fitness_center,
+  'Free Breakfast': Icons.free_breakfast,
+  'Free Parking': Icons.local_parking_rounded,
+  'Refundable': Icons.undo,
+  'Reschedule': Icons.access_time,
+  'Single & Double': Icons.bed,
+  '1 Adult': Icons.person,
+  '2 Adult': Icons.group,
+  '2 Adult & Children': Icons.groups_rounded,
+  'Smoking': Icons.smoking_rooms,
+  'No Smoking': Icons.smoke_free,
+  'Printer & Scanner': Icons.print,
+  'Projector & Screen': Icons.screenshot_monitor_sharp,
+  'Whiteboard': Icons.width_full_outlined,
+  'Cleaning Services': Icons.cleaning_services,
+  'Laundry': Icons.dry_cleaning_rounded,
+};
