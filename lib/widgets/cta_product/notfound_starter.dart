@@ -1,6 +1,5 @@
 import 'package:ewallet_app/app/app_link.dart';
 import 'package:ewallet_app/ui/themes/theme_button.dart';
-import 'package:ewallet_app/ui/themes/theme_radius.dart';
 import 'package:ewallet_app/ui/themes/theme_shadow.dart';
 import 'package:ewallet_app/ui/themes/theme_spacing.dart';
 import 'package:ewallet_app/ui/themes/theme_text.dart';
@@ -11,7 +10,7 @@ import 'package:get/route_manager.dart';
 class NotfoundStarter extends StatelessWidget {
   const NotfoundStarter({super.key});
 
-  Future<void> _launchUrl(url) async {
+  Future<void> _launchUrl(Uri url) async {
     if (!await launchUrl(url)) {
       throw Exception('Could not launch $url');
     }

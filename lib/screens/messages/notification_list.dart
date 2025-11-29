@@ -86,7 +86,7 @@ class _NotificationListState extends State<NotificationList> {
             shrinkWrap: true,
             physics: const ClampingScrollPhysics(),
             itemCount: _filteredItems.length,
-            padding: EdgeInsets.only(bottom: spacingUnit(3)),
+            padding: EdgeInsets.only(bottom: spacingUnit(15)),
             itemBuilder: ((BuildContext context, int index){
               NotificationModel item = _filteredItems[index];
               return NotifItem(
